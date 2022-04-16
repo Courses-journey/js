@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .Settings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .Settings .settings-item {
+        font-size: inherit;
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 10px;
+      }
+      .Settings .settings-item select {
+        font-size: inherit;
+        color: inherit;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Settings">
+      <div class="settings-item">
+        <label for="fonts">Fonts</label>
+        <select id="fonts">
+          <option value="open-sans">Open Sans</option>
+          <option value="cairo">Cairo</option>
+          <option value="roboto">Roboto</option>
+        </select>
+      </div>
+      <!-- .. -->
+      <div class="settings-item">
+        <label for="colors">Colors</label>
+        <select id="colors">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="black">Black</option>
+          <option value="yellow">Yellow</option>
+          <option value="purple">Purple</option>
+        </select>
+      </div>
+
+      <!-- .. -->
+      <div class="settings-item">
+        <label for="fonts-size">fonts Size</label>
+        <select id="fonts-size"></select>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
