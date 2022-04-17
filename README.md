@@ -1,3 +1,11 @@
+<div align="center">
+<img src="https://elzero.org/wp-content/themes/elzero/imgs/logo.png" alt='source' width="200"/>
+
+# Elzero Web School
+
+[JS Course](https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv)
+</div>
+
 # 004
 
 u can test ur code directly in console tab in browser
